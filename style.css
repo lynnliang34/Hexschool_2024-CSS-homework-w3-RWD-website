@@ -253,6 +253,11 @@ img {
   padding-right: 12px;
 }
 
+/* 字型 */
+.text-roboto {
+  font-family: "Roboto", sans-serif;
+}
+
 /* 字重 */
 .fw-medium {
   font-weight: 500;
@@ -260,6 +265,10 @@ img {
 
 .fw-bold {
   font-weight: 700;
+}
+
+.fw-black {
+  font-weight: 900;
 }
 
 /* 斜體 */
@@ -303,7 +312,7 @@ img {
 
 /* 文字顏色 */
 .text-primary {
-  color: #fbf2f2;
+  color: #aa0601;
 }
 
 .text-secondary {
@@ -459,4 +468,9 @@ img {
 .intro-icon {
   width: 100px;
   height: 100px;
+}
+
+/* Classic Series */
+.classic-img {
+  width: 336px;
 }
