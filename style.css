@@ -176,6 +176,10 @@ img {
   display: none;
 }
 
+.d-block {
+  display: block;
+}
+
 @media screen and (max-width: 768px) {
   .d-md-none {
     display: none;
@@ -212,6 +216,9 @@ img {
 
 .justify-content-center {
   justify-content: center;
+}
+.align-items-start {
+  align-items: flex-start;
 }
 
 .align-items-center {
@@ -347,6 +354,10 @@ img {
 }
 
 /* 間距 margin*/
+.mr-1 {
+  margin-right: 4px;
+}
+
 .mr-16 {
   margin-right: 64px;
 }
@@ -518,4 +529,68 @@ img {
 
 .reco-card-text {
   height: 205px;
+}
+
+/* 聯絡我們 */
+.contact-us {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+@media screen and (max-width: 576px) {
+  .contact-us {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
+
+.contact-form {
+  width: 636px;
+}
+
+@media screen and (max-width: 768px) {
+  .contact-form {
+    width: 576px;
+  }
+}
+
+.input-style {
+  width: 100%;
+  height: 36px;
+  background-color: #fbf2f2;
+  border: 1px solid black;
+  padding-left: 12px;
+}
+
+.input-style-comment {
+  width: 100%;
+  height: 136px;
+  background-color: #fbf2f2;
+  border: 1px solid black;
+  padding: 6px 0 106px 12px;
+}
+
+.submit-style {
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #aa0601;
+  padding: 16px 176px;
+  border: 0px;
+}
+
+@media screen and (max-width: 768px) {
+  .submit-style {
+    padding: 16px 136px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .statement {
+    width: 320px;
+    margin-bottom: 24px;
+  }
+}
+
+.statement {
+  margin-bottom: 48px;
 }
