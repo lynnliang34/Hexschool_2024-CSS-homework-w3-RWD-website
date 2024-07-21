@@ -200,12 +200,16 @@ img {
   justify-content: space-between;
 }
 
-.justify-content-end {
-  justify-content: flex-end;
+.justify-content-center {
+  justify-content: center;
 }
 
 .align-items-center {
   align-items: center;
+}
+
+.align-items-end {
+  align-items: flex-end;
 }
 
 /* row */
@@ -259,10 +263,14 @@ img {
 }
 
 .fs-4 {
-  font-size: 20px;
+  font-size: 24px;
 }
 
 .fs-5 {
+  font-size: 20px;
+}
+
+.fs-6 {
   font-size: 14px;
 }
 
@@ -375,6 +383,16 @@ img {
   padding-bottom: 80px;
 }
 
+.py-36 {
+  padding-top: 144px;
+  padding-bottom: 144px;
+}
+
+.py-74 {
+  padding-top: 296px;
+  padding-bottom: 296px;
+}
+
 /* 導覽列 */
 .logo {
   width: 80px;
@@ -383,4 +401,25 @@ img {
 
 .nav-item {
   width: 50%;
+}
+
+/* Banner */
+.banner {
+  background-image: url("img/home-header.png");
+  background-position: center center;
+  background-size: cover;
+  height: 787px;
+}
+
+@media screen and (max-width: 576px) {
+  .banner {
+    background-image: url("img/home-header-sm.png");
+    height: 396px;
+  }
+}
+
+.btn {
+  padding: 6px 12px;
+  color: #ffffff;
+  background-color: #aa0601;
 }
