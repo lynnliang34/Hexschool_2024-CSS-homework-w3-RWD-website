@@ -474,3 +474,37 @@ img {
 .classic-img {
   width: 336px;
 }
+
+/* Co-design */
+.co-design {
+  background-image: url("img/index-bg.png");
+  background-position: center center;
+  background-size: cover;
+  height: 608px;
+}
+
+@media screen and (max-width: 768px) {
+  .co-design {
+    background-image: url("img/index-bg-sm.png");
+    height: 960px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .co-design {
+    background-image: url("img/index-bg-sm.png");
+    height: 820px;
+  }
+}
+
+.co-design-card {
+  width: 50%;
+  background-color: #ffffff;
+}
+
+@media screen and (max-width: 768px) {
+  .co-design-card {
+    width: 100%;
+    background-color: #ffffff;
+  }
+}
