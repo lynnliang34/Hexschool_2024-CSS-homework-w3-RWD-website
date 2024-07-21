@@ -155,23 +155,43 @@ img {
 .container {
   max-width: 1296px;
   margin: 0 auto;
-  padding-right: -12px;
-  padding-left: -12px;
+  padding-right: 12px;
+  padding-left: 12px;
 }
 
-.container-md {
-  max-width: 696px;
-  margin: 0 auto;
-  padding-right: -12px;
-  padding-left: -12px;
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 696px;
+  }
 }
 
-/* flex */
+@media screen and (max-width: 576px) {
+  .container {
+    max-width: 100%;
+  }
+}
+
+/* display */
+.d-none {
+  display: none;
+}
+
+@media screen and (max-width: 576px) {
+  .d-sm-none {
+    display: none;
+  }
+
+  .d-sm-block {
+    display: block;
+  }
+}
+
 .d-flex {
   display: flex;
   flex-wrap: wrap;
 }
 
+/* flex */
 .flex-column {
   flex-direction: column;
 }
@@ -194,13 +214,13 @@ img {
 }
 
 /* column */
-.column-2 {
+.col-2 {
   width: 50%;
   padding-left: 12px;
   padding-right: 12px;
 }
 
-.column-3 {
+.col-3 {
   width: 33.33333%;
   padding-left: 12px;
   padding-right: 12px;
@@ -218,6 +238,11 @@ img {
 /* 斜體 */
 .fst-italic {
   font-style: italic;
+}
+
+/* 文字對齊 */
+.text-center {
+  text-align: center;
 }
 
 /* 字體大小 */
@@ -348,4 +373,14 @@ img {
 .py-20 {
   padding-top: 80px;
   padding-bottom: 80px;
+}
+
+/* 導覽列 */
+.logo {
+  width: 80px;
+  height: 100%;
+}
+
+.nav-item {
+  width: 50%;
 }
