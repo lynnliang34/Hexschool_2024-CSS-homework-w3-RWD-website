@@ -508,3 +508,14 @@ img {
     background-color: #ffffff;
   }
 }
+
+/* 顧客推薦 */
+.reco-card {
+  border: 1px solid #dee2e6;
+  border-radius: 4px 4px 0px 0px;
+  box-shadow: 0 2px 6px #00000029;
+}
+
+.reco-card-text {
+  height: 205px;
+}
